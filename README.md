@@ -1,6 +1,8 @@
 # Micromouse
 
-Competitiong to see which robot solves a 16x16 maze the fastest. Uses infrared lights to "see" walls of the maze. 
+Competitiong to see which robot solves a 16x16 maze the fastest. Uses infrared lights to "see" walls of the maze.
+
+I will attempt programming it in both Arduino and Rust to learn the pros and cons of each.
 
 ## Building with Rust
 
