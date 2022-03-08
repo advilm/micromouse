@@ -1,0 +1,21 @@
+[package]
+name = "micromouse"
+version = "0.1.0"
+authors = ["Adil Mohiuddin <amohi9046@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+embedded-hal = "0.2.3"
+imxrt-hal = "0.4.5"
+teensy4-panic = "0.2.0"
+
+[dependencies.teensy4-bsp]
+version = "0.3"
+features = ["rt"]
+
+# Don't optimize build dependencies, like proc macros.
+# Helps with build times.
+[profile.release.build-override]
+opt-level = 0
